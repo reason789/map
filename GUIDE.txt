@@ -1,0 +1,15 @@
+npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react
+
+override the current location
+    more tools > media > sensors
+
+u must add this in public> index.html
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=<key>"></script>
+        <key> = same value as map api key
+
+we r using here
+    > Map Javascript api
+    > Places api
+
+Go to : https://snazzymaps.com/ 
+    > for map styling
